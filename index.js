@@ -36,3 +36,8 @@ function makeInt(n) {
   else return 'NaN';
   }
 
+function preserveDecimal(n) { if (parseFloat(n) !== NaN) {
+  var number = parseFloat(n);
+  return number;
+} else return NaN; 
+}

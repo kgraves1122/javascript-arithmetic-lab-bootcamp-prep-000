@@ -38,3 +38,4 @@ function makeInt(n) {
     if (n === isNaN) { return NaN}
     else { return parseFloat(n);
   }
+  }

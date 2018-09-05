@@ -4,4 +4,9 @@ function add (a,b) {
 }
 
 
-function subtract (a,b)
+function subtract (a,b) {
+  var subtract = a - b;
+  return subtract;
+}
+
+function multiply (a,b)

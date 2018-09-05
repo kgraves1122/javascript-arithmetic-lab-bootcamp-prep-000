@@ -18,12 +18,21 @@ function divide (a,b) {
   return divide;
 }
 
-function inc(n) {
-  var num = parseInt(n);
-  return num;
+function inc(n) { 
+  var number += n;
+  return number;
 }
 
-function dec(n) {
-  var too = parseFloat(n);
-  return too;
+function dec(n) { 
+ var num -= n;
+ return num;
 }
+
+function makeInt(n) {
+  if (makeInt(n) !== 'NaN') {
+    var number = parseInt(n, 10);
+    return number;
+  }
+  else return 'NaN';
+  }
+
